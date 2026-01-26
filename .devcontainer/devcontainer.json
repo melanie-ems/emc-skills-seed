@@ -6,7 +6,7 @@
       "version": "3.11"
     }
   },
-  "postCreateCommand": "export DEBIAN_FRONTEND=noninteractive && apt-get update && apt-get install -y --no-install-recommends latexmk texlive-latex-base texlive-latex-recommended texlive-fonts-recommended",
+  "postCreateCommand": "export DEBIAN_FRONTEND=noninteractive && apt-get update && apt-get install -y --no-install-recommends git-lfs latexmk texlive-latex-base texlive-latex-recommended texlive-fonts-recommended",
   "customizations": {
     "vscode": {
       "extensions": [
